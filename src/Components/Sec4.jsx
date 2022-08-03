@@ -5,7 +5,7 @@ const Sec4 = () => {
             <div id="see">
                 <h2>See our samples.</h2>
                 <p>Check out the pre-made template designs or request a customized website!</p>
-                <a href="templates.html" target="_self"><button id="btn">See Templates</button></a>
+                <a href="templates/index.html" target="_self"><button id="btn">See Templates</button></a>
             </div>
         </section>
     )
