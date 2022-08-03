@@ -4,7 +4,7 @@ const Nav = () => {
             <nav id="navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="templates/index.html">Templates</a></li>
+                    <li><a href="index2.html">Templates</a></li>
                     <li><a href="#temp">Our Works</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
