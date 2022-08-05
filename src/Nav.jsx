@@ -4,7 +4,6 @@ const Nav = () => {
             <nav id="navbar">
                 <ul>
                     <li><a href="https://divstruct.tk/">Home</a></li>
-                    <li><a href="https://samplewebsites.github.io/">Templates</a></li>
                     <li><a href="#temp">Our Works</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
