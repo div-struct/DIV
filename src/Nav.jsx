@@ -1,3 +1,6 @@
+import Templates from "./Book/Templates"
+
+
 const Nav = () => {
     return (
         <header>
