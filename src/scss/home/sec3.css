@@ -1,0 +1,54 @@
+/* WHY IS WEBSITE IMPORTANT*/
+#naze {
+    height: 45vw;
+    background-color: #1a1a1a;
+    position: relative;
+    top: -1vw;
+    padding: 5vw 5vw 5vw 5vw;
+}
+
+#naze img {
+    width: 65vw;
+    height: 35vw;
+    border-radius: 20px;
+    position: relative;
+    top: -18vw;
+    right: -27vw;
+}
+
+#nande {
+    text-align: left;
+    width: 23vw;
+    font-size: 1.7vw;
+    position: relative;
+    top: 8vw;
+}
+
+@media (max-width:425px) {
+    #naze {
+        height: 57vw;
+        top: -2vw;
+        padding: 2vw 5vw 5vw 5vw;
+    }
+    
+    #naze img {
+        width: 73vw;
+        height: 40vw;
+        top: -5vw;
+        right: -8vw;
+    }
+    
+    #nande {
+        width: auto;
+        font-size: 4vw;
+        text-align: center;
+        top: -1.5vw;
+    }
+
+    .secline {
+        position: relative;
+        top: -5vw;
+        font-size: 3.5vw;
+        font-stretch:wider;
+    }
+}
