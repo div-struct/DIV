@@ -1,11 +1,11 @@
-import Ichi from './HomeComp/Ichi'
-import Sec1 from './HomeComp/Sec1'
+import Tsec1 from './HomeComp/Tsec1'
+import Tsec2 from './HomeComp/Tsec2'
 
 const Templates = () => {
     return (
         <>
-            <Ichi />
-            <Sec1 />
+            <Tsec1 />
+            <Tsec2 />
         </>
     )
 }
