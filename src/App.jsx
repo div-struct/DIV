@@ -7,10 +7,10 @@ import Templates from './Book/Templates'
 const App = () => {
     let Page
     switch(window.location.pathname) {
-        case "/":
+        case '/':
             Page = Home
             break
-        case "templates":
+        case '/templates':
             Page = Templates
             break
     }
