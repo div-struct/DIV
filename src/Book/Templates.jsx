@@ -1,6 +1,6 @@
 import React from 'react'
-import Tsec1 from '../HomeComp/Tsec1'
-import Tsec2 from '../HomeComp/Tsec2'
+import Tsec1 from './HomeComp/Tsec1'
+import Tsec2 from './HomeComp/Tsec2'
 
 const Templates = () => {
     return (
