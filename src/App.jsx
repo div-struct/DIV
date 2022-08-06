@@ -6,6 +6,7 @@ import Templates from './Book/Templates'
 
 const App = () => {
     let Page
+    console.log(window.location)
     switch(window.location.pathname) {
         case "/":
             Page = Home
