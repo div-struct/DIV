@@ -10,7 +10,7 @@ const App = () => {
         case "/":
             Page = Home
             break
-        case "/templates":
+        case "temp":
             Page = Templates
             break
     }
