@@ -8,7 +8,7 @@ const App = () => {
     let Page
     switch(window.location.pathname) {
         case "/":
-            Page = Nav
+            Page = Home
             break
         case "/templates":
             Page = Templates
