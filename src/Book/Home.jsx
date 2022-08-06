@@ -1,3 +1,4 @@
+import React from 'react'
 import Ichi from './HomeComp/Ichi'
 import Sec1 from './HomeComp/Sec1'
 import Sec2 from './HomeComp/Sec2'
