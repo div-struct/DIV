@@ -1,7 +1,7 @@
 import Nav from './Nav'
 import Footer from './Footer'
-import Home from './Book/Home'
-import Templates from './Book/Templates'
+import Home from './src/Book/Home'
+import Templates from './src/Book/Templates'
 
 
 const App = () => {
