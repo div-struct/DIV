@@ -6,15 +6,11 @@ const Nav = () => {
                     <li><a href="/">Home</a></li>
                     <li><a href="#/templates">Templates</a></li>
                     <li><a href="#/templates">Our Works</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact</a></li>
-                    <a href="#" id="close"><img src="#" alt="close"/></a>
+                    <li><a href="#habout">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/292565482_386867043590782_5713725227048561280_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=pqd6YFoaowcAX80KMp7&_nc_ht=scontent.fceb1-3.fna&oh=03_AVK18DkctG33o3ZN5OPkVQZtYHR0Rlh-MWEjCwRIX25Wcw&oe=63050C24"/>
             </nav>
-            <div id="menu">
-                <img src="/pic/menu.png" alt="menu" id="menubar" />
-            </div>
         </header>
     )
 }
