@@ -1,0 +1,164 @@
+/* NAVBAR */
+#bg img{
+    width: 100%;
+    height: 60%;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 5vw;
+    padding: 1.3vw 0 0 0;
+    z-index: 2;
+    background-color: transparent;
+} 
+
+#navbar.scrolled {
+    background-color: #1a1a1a;
+    box-shadow: 0 0.1vw 2vw black;
+}
+
+header ul {
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    margin: 0 3vw 0 0;
+    font-size: 1.5vw;
+}
+
+#navbar a {
+    text-decoration: none;
+    color:white;
+}
+
+#navbar a:hover,#navbar a:visited {
+    color: #FFCC00;
+}
+
+.active {
+    color: #FFCC00;
+}
+
+#navbar img {
+    width: 11vw;
+    height: 2.5vw;
+    object-fit: fill;
+    position: absolute;
+    top: -1vw;
+    left: 7vw;
+    margin: 2vw 0 0 0;
+}
+
+/* NAVBAR INTRO */
+#img1 {
+    position: absolute;
+    top: 16vw;
+    left: 7vw;
+}
+
+#img1 img{
+    width: 48vw;
+    height: 25vw;
+}
+
+#img2 {
+    position: absolute;
+    top: 13vw;
+    right: 10vw;
+}
+
+#img2 img{
+    width: 34vw;
+    height: 16vw;
+}
+
+#intro {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+#menu {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+@media (max-width: 799px) {
+    #menu {
+        display: flex;
+        align-items: center;
+    }
+
+    #menu img {
+        width: 25px;
+        margin-right: 25px;
+    }
+
+    #close {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    #close img {
+        width: 35px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    #navbar img {
+        width: 13vw;
+        height: 3.5vw;
+        margin: 2vw 0 0 0;
+    }
+}
+
+@media (max-width:425px) {
+    #navbar {
+        height: 6vw;
+        padding: 0.03vw 0 0 0;
+    }
+
+    #navbar img {
+        margin: 2.5vw 0 0 0;
+    }
+
+    #bg img {
+        height: 70vw;
+        object-fit: cover;
+    }
+
+    #img1 {
+        position: absolute;
+        top: 35vw;
+        left: 25.5vw;
+    }
+    
+    #img1 img{
+        width: 50vw;
+        height: 28vw;
+    }
+    
+    #img2 {
+        position: absolute;
+        top: 5vw;
+        right: 30vw;
+    }
+    
+    #img2 img{
+        width: 39vw;
+        height: 18vw;
+    }    
+}
