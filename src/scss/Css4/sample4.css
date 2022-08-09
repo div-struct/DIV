@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+#navbars4 {
+    width: 100%;
+    height: 6vw;
+    z-index: 5;
+    position: fixed;
+    background-color: #1a1a1a;
+    font-family: 'Cormorant SC';
+}
+
+#navbars4 ul {
+    text-align: right;
+    margin-right: 10vw;
+}
+
+#navbars4 ul li {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    padding: 1.6vw 2vw 0 0;
+}
+
+#navbars4 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}
+
+#navbars4 img {
+    width: 11vw;
+    height: 4vw;
+    position: absolute;
+    top: 1vw;
+    left: 12vw;
+}
+
+#navbars4 li a:hover {
+    color: yellow;
+}
+
+#homes4 img {
+    width: 100%;
+    height: 55vw;
+    object-fit: cover;
+}
+
+#homes4 {
+    color: white;
+    font-family: 'DM Sans';
+}
+
+#promos4 {
+    position: absolute;
+    top: 11vw;
+    left: 5vw;
+    width: 40vw;
+    height: 30vw;
+    padding: 10px;
+}
+
+#diffc {
+    color: #F6BE00;
+}
+
+#promos4 h1 {
+    font-size: 5vw;
+}
+
+#promos4 p {
+    font-size: 1.5vw;
+}
+
+#promos4 button {
+    width: 13vw;
+    height: 4vw;
+    background-color: #F6BE00;
+    border: 0px;
+    color: white;
+    font-size: 1.02vw;
+    font-weight: bold;
+    margin: 2vw 0 0 0;
+}
+
+#promos4 button:hover {
+    background-color: #ddaa01;
+}
+
+#blogs4 {
+    text-align: center;
+    font-family: 'DM Sans';
+    color: black;
+}
+
+#blogs4 h1 {
+    text-align: center;
+    font-size: 4vw;
+    padding: 3vw 0 0 0;
+    text-decoration: underline #F6BE00;
+}
+
+#compilers4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4vw 0 0 0;
+}
+
+#boxs4 {
+    width: 20vw;
+    height: 20vw;
+    background-color: #F6BE00;
+    border-radius: 15px;
+    margin-bottom: 5vw;
+}
+
+#frees4 {
+    width: 10vw;
+    height: 10vw;
+    padding: 4vw 0 0 0;
+}
+
+#trucks4 {
+    width: 10vw;
+    height: 10vw;
+    padding: 4vw 0 0 0;
+}
+
+#bests4 {
+    width: 7vw;
+    height: 10vw;
+    padding: 3vw 0 0 0;
+}
+
+#boxs4 h2 {
+    font-size: 2vw;
+}
+
+#boxs4 p {
+    padding: 1vw 1.5vw 0 1.5vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+#productss4 {
+    background-color: #2c2c2c;
+    font-family: 'DM Sans';
+    padding: 1.5vw 0 0 0;
+}
+
+#productss4 h1 {
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 1vw 0 1vw 0;
+}
+
+#compiler2s4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 15vw;
+    color: black;
+}
+
+#items4 {
+    width: 16vw;
+    height: 24vw;
+    background-color: white;
+    border-radius: 1.5vw;
+    text-align: center;
+    padding: 10px;
+    margin: 0 1.5vw 4vw 0;
+}
+
+#items4 img {
+    width: 100%;
+    height: 70%;
+    padding: 0;
+}
+
+#items4 h2 {
+    font-size: 2vw;
+}
+
+#items4 p {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+#items4 button {
+    width: auto;
+    height: auto;
+    font-size: 1vw;
+    border-radius: 17px;
+    margin: 0.2vw;
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    background-color: #F6BE00;
+    color: black;
+    border: none;
+}
+
+#items4 button:hover {
+    background-color: yellow;
+}
+
+#prllxs4 {
+    width: 100%;
+    height: 30vw;
+    background-image: url('https://drive.google.com/uc?id=1Cn85S4Ew08QpXouyWXSEQXb2XXPfRsYz');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footers4 {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans';
+    color: black;
+    background-color: #F6BE00;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#abouts4 {
+    width: 35vw;
+    height: auto;
+}
+
+#abouts4 h2 {
+    font-size: 2.5vw;
+} 
+
+#abouts4 p {
+    font-size: 1.3vw;
+    margin : 1vw 0 0 0;
+}
+
+#infos4 {
+    width: 30vw;
+    height: auto;
+    padding: 0 0 2.9vw 0;
+}
+
+#infos4 h2 {
+    font-size: 2.5vw;
+    margin: 0 0 1vw 0;
+}
+
+#infos4 p {
+    font-size: 1.3vw;
+}
+
+#infos4 a {
+    color: black;
+    text-decoration: none;
+}
+
+#infos4 a:hover {
+    text-decoration: underline;
+}
+
+#links4 ul {
+    text-align: center;
+}
+
+#links4 ul li {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links4 i {
+    font-size: 3.5vw;
+    margin: 0 1vw 0 0;
+    color: maroon;
+}
+
+#links4 i:hover {
+    transform: scale(1.1);
+}
+
+#bots4 {
+    margin: 1vw 0 0 0;
+    font-weight: bold;
+}
+
+#bots4 a{
+    color: black;
+    text-decoration: none;
+    margin: 0 2vw 0 0;
+    font-style: bold;
+}
+
+#bots4 a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:425px) {
+    #navbars4 ul li {
+        padding: 0 2vw 0 0;
+    }
+
+    #navbars4 img {
+        top: 1.2vw;
+    }
+
+    #boxs4 h2 {
+        font-size: 2.5vw;
+    }
+    
+    #boxs4 p {
+        padding: 0.5vw 1.5vw 0 1.5vw;
+        font-size: 1.5vw;
+    }
+
+    #blogs4 h1 {
+        font-size: 5vw;
+    }
+
+    #productss4 h1 {
+        font-size: 5vw;
+    }
+
+    #compiler2s4 {
+        margin: 0 0 0 14.5vw;
+    }
+
+    #items4 {
+        width: 18vw;
+        height: 33vw;
+    }
+
+    #items4 h2 {
+        font-size: 3vw;
+    }
+    
+    #items4 p {
+        font-size: 1.9vw;
+    }
+    
+    #items4 button {
+        width: 9vw;
+        height: 3.5vw;
+        font-size: 2vw;
+    }
+}
