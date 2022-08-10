@@ -12,6 +12,7 @@ import './scss/temp/tsect1.css'
 import './scss/temp/tsect2.css'
 import './scss/Css3/ex3.css'
 import './scss/Css4/sample4.css'
+import './code.js'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
