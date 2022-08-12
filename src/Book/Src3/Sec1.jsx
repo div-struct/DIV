@@ -3,7 +3,7 @@ const Sec1 = () => {
         <section id="sec1s3">
             <div id="displays3">
                 <div id="columns3">
-                    <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/250307418_1049044519186723_7014367652902113117_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jK31gS87HuMAX9zYNCW&_nc_ht=scontent.fceb1-3.fna&oh=03_AVLb201ux2J1FnP-HTnf3fRpqKZXo_8U87eqPb1noiXReA&oe=62F58962"/>
+                    <img src="https://drive.google.com/uc?id=1etKvlW1caVrI9RpxAFNjrbrcLycMjOF0"/>
                 </div>
                 <div id="mids3">
                     <div id="texts3">
