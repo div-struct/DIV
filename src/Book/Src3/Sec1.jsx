@@ -13,7 +13,7 @@ const Sec1 = () => {
                     </div>
                 </div>
                 <div id="columns3">
-                    <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/256270325_209468531210883_8295343078207883770_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4M6HgfDUkUgAX8NefZo&_nc_oc=AQn5t3Ef1-vmNpC2IMEIGpLvbFdX8ojVKOnYUzwYaoll_Xr0olrR-aabiSSxWYJJfoQ&_nc_ht=scontent.fceb1-2.fna&oh=03_AVJPKFaWEy780SGA-TGOiHUiToNhZsblXulWY6Lh7hN70w&oe=62F7EEA2"/>
+                    <img src="https://drive.google.com/uc?id=1I8bnkEMrehqo49E59MgMNBBsvskTvB5W"/>
                 </div>
             </div>
         </section>
