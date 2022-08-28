@@ -2,7 +2,7 @@ const Ichi = () => {
     return (
         <header>
             <div id="bg">
-                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/290454386_796003804758840_2523768622890032752_n.png?stp=dst-png_s370x247&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=L8iuPcahMRIAX_gnWWZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKZn0_ZVrYhZv9rAg3w3MAEB29S5FDbKl5RA6dd2YU5Vw&oe=6304640A" className="bg"/>
+                <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/290453404_497219245508815_794277716937081673_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGDdKrotNq60n1hi8tIVkjsONwY1_G0AoM43BjX8bQCg7xgqgB-qSYm1sH-hio9i1wMqlUWpoMURezkZWdfZCPR&_nc_ohc=cumSMxiGOzUAX_RJPTp&_nc_ht=scontent.fceb1-3.fna&oh=03_AVK0fe_6a8n2Xk-1xk8gTpJSOn47NQd5Nr0U7Yty5vaqCg&oe=632FD570" className="bg"/>
             </div>
             <div id="img1">
                 <img src="https://drive.google.com/uc?id=1HQqF_HODKg-dPZB2DXqnwDU1B_g02hAR"/>
