@@ -6,7 +6,7 @@ const Tsec2 = () => {
                     <div id="pic">
                         <div id="first">
                             <a id="prev" onClick={seeform}>
-                                <img src="https://drive.google.com/uc?id=1IaXx71819hveOwMzLG4v-islHxmHTZvl"/>
+                                <img src="https://drive.google.com/uc?id=1AUzTHJNoUj9DEgwCmUoZkpoF9iSrB9Zi"/>
                             </a>
                         </div>
                         <div id="preview">
@@ -15,7 +15,7 @@ const Tsec2 = () => {
                                     <div id="exit">
                                         <button onClick={close}>X</button>
                                     </div>
-                                    <img src="https://drive.google.com/uc?id=1IaXx71819hveOwMzLG4v-islHxmHTZvl"/>
+                                    <img src="https://drive.google.com/uc?id=1AUzTHJNoUj9DEgwCmUoZkpoF9iSrB9Zi"/>
                                     <a href="https://animestocks.tk/" target="_blank"><button>View Live Demo</button></a>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@ const Tsec2 = () => {
                         <div id="exit">
                             <button onClick={close5}>X</button>
                         </div>
-                        <img src=""/>
+                        <img src="https://github.com/KellyCu/Kellycu.github.io/blob/main/images/divprm.png?raw=true"/>
                     </div>
                 </div>
             </div>
