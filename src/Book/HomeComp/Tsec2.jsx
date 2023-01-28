@@ -13,7 +13,7 @@ const Tsec2 = () => {
                             <div id="box">
                                 <div id="ctnr">
                                     <div id="exit">
-                                        <i class="fa-solid fa-circle-xmark" onClick={close}></i>
+                                        <i className="fa-solid fa-circle-xmark" onClick={close}></i>
                                     </div>
                                     <img src="https://drive.google.com/uc?id=1AUzTHJNoUj9DEgwCmUoZkpoF9iSrB9Zi"/>
                                     <a href="https://animestocks.tk/" target="_blank"><button>View Live Demo </button></a>
