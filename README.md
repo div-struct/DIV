@@ -1,1 +1,1 @@
-https://divstruct.tk/
+https://divstruct.github.io/
