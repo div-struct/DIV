@@ -8,27 +8,27 @@ window.onscroll = function() {
     }
 }
 // Swipe script
-const swiper = new Swiper('.swiper', {
-    // for auto
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction:false,
-    },
+// const swiper = new Swiper('.swiper', {
+//     // for auto
+//     autoplay: {
+//       delay: 3000,
+//       disableOnInteraction:false,
+//     },
 
-    loop: true,
+//     loop: true,
 
-    // page animation
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+//     // page animation
+//     pagination: {
+//       el: '.swiper-pagination',
+//       clickable: true,
+//     },
 
-    // Nav arrow
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+//     // Nav arrow
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+// });
 
 function seeform() {
   document.getElementById("box").style.display="block";
