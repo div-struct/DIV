@@ -1,177 +1,141 @@
+import React, {useEffect} from 'react'
+
+
 const Tsec2 = () => {
+    useEffect(() => {
+        const timer= setTimeout(() => {
+            var tsc2 = document.getElementById('tsec2');
+            var mCon = document.createElement('div');
+            mCon.setAttribute('id', 'mainCon');
+            tsc2.appendChild(mCon);
+
+// First ---------------------------------------------
+            for(var i=0; i<Templates.length;i++){
+                var Con = document.createElement('div');
+                Con.setAttribute('id', 'container');
+                mCon.appendChild(Con);
+                var Fir = document.createElement('div');
+                Fir.setAttribute('id', 'first');
+                Con.appendChild(Fir);
+                var Fpc = document.createElement('img');
+                Fpc.setAttribute('id','fpic');
+                var Fsrc = Templates[i].fullImage;
+                Fpc.setAttribute('src', Fsrc);
+                Fir.appendChild(Fpc);
+
+
+// // Second --------------------------------------------------
+                var Sec = document.createElement('div');
+                Sec.setAttribute('id', 'second');
+                Con.appendChild(Sec);
+                var sLin = document.createElement('a');
+                sLin.setAttribute('href', Templates[i].link);
+                sLin.setAttribute('target', '_blank');
+                Sec.appendChild(sLin);
+                var sePic = document.createElement('img');
+                sePic.setAttribute('id', 'simg');
+                sePic.setAttribute('src', Templates[i].image);
+                sLin.appendChild(sePic);
+                var hidd = document.createElement('div');
+                hidd.setAttribute('id', 'hdd');
+                sLin.appendChild(hidd);
+                var vH2 = document.createElement('h2');
+                vH2.innerHTML = "View Live Demo";
+                hidd.appendChild(vH2);
+
+// Third -------------------------------------------------------
+                var Des = document.createElement('div');
+                Des.setAttribute('id', 'description');
+                Con.appendChild(Des);
+                var Nem = document.createElement('div');
+                Nem.setAttribute('id', 'dName');
+                Des.appendChild(Nem);
+                var hNem = document.createElement('h1');
+                hNem.innerHTML = Templates[i].name;
+                Nem.appendChild(hNem);
+
+                var dNo = document.createElement('div');
+                dNo.setAttribute('id', 'dSno');
+                Des.appendChild(dNo);
+                var hNo = document.createElement('h1');
+                hNo.innerHTML = "Template 0" + (i+1);
+                dNo.appendChild(hNo);
+
+                var dDesc = document.createElement('div');
+                dDesc.setAttribute('id', 'dDes');
+                Des.appendChild(dDesc);
+                var dPar = document.createElement('p');
+                dPar.innerHTML = Templates[i].description;
+                dDesc.appendChild(dPar);
+
+                var dBtn = document.createElement('div');
+                dBtn.setAttribute('id', 'conBtn');
+                Des.appendChild(dBtn);
+                var dBp = document.createElement('button');
+                dBp.setAttribute('class', 'bprice');
+                dBp.innerHTML = Templates[i].price;
+                dBtn.appendChild(dBp);
+                var dBa = document.createElement('button');
+                dBa.setAttribute('class', 'baddons');
+                dBa.innerHTML = Templates[i].addons;
+                dBtn.appendChild(dBa);
+
+                (function (index) {
+                    Fir.addEventListener('click', () => {
+                        toggleHidItem(index);
+                        console.log("Clicked");
+                    });
+                })(i);
+            }
+
+
+// Preview -------------------------------------------
+            function toggleHidItem(index) {
+                var Prev = document.createElement('div');
+                Prev.setAttribute('id', 'preview');
+                Con.appendChild(Prev);
+                var Lcn = document.createElement('div');
+                Lcn.setAttribute('id', 'lcon');
+                Prev.appendChild(Lcn);
+                var Ptp = document.createElement('div');
+                Ptp.setAttribute('id', 'ptop');
+                Lcn.appendChild(Ptp);
+                var Ex = document.createElement('h1');
+                Ex.innerHTML = "X";
+                Ptp.appendChild(Ex);
+                Ex.setAttribute('onclick', 'Rmv()');
+
+                var Pmd = document.createElement('div');
+                Pmd.setAttribute('id', 'pmid');
+                Lcn.appendChild(Pmd);
+                var Ppc = document.createElement('img');
+                Ppc.setAttribute('id', 'lmg');
+                var Psrc = Templates[index].fullImage;
+                Ppc.setAttribute('src', Psrc);
+                Pmd.appendChild(Ppc);
+
+                var Pbt = document.createElement('div');
+                Pbt.setAttribute('id', 'pbot');
+                Lcn.appendChild(Pbt);
+                var pbl = document.createElement('a');
+                pbl.setAttribute('href', Templates[index].link);
+                pbl.setAttribute('target', '_blank');
+                Pbt.appendChild(pbl);
+                var pbtn = document.createElement('button');
+                pbtn.innerHTML = "View Live Demo";
+                pbl.appendChild(pbtn);
+
+                Prev.style.display = "flex";
+            }
+
+        }, 50);
+
+        return () => {
+            clearTimeout(timer);
+        };
+    }, []);
     return (
         <section id="tsec2">
-            <div id="tcontainer">
-                <div id="template">
-                    <div id="pic">
-                        <div id="first">
-                            <a id="prev" onClick={seeform}>
-                                <img src="https://drive.google.com/uc?id=1AUzTHJNoUj9DEgwCmUoZkpoF9iSrB9Zi"/>
-                            </a>
-                        </div>
-                        <div id="preview">
-                            <div id="box">
-                                <div id="ctnr">
-                                    <div id="exit">
-                                        <i className="fa-solid fa-circle-xmark" onClick={close}></i>
-                                    </div>
-                                    <img src="https://drive.google.com/uc?id=1AUzTHJNoUj9DEgwCmUoZkpoF9iSrB9Zi"/>
-                                    <a href="https://animestocks.tk/" target="_blank"><button>View Live Demo </button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="second">
-                            <a href="https://animestocks.tk/" target="_blank">
-                                <img src="https://drive.google.com/uc?id=17SmIRvtqOII0xeP12kLT-duoSO2ERxD7"/>
-                            <div id="invi">
-                                <div id="bttn">
-                                    <h2>View Live Demo</h2>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="info">
-                        <h1><span className="yellow">Online Store</span></h1>
-                        <h2>Template 01</h2>
-                        <p>A site selling your products online.</p>
-                        <div id="btncompiler">
-                            <button className="btn1">₱500.00</button>
-                            <button className="btn2">+₱300.00 for Addons</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="template">
-                    <div id="pic">
-                        <div id="first">
-                            <a id="prev" onClick={seeform2}>
-                                <img src="https://drive.google.com/uc?id=1l-mUQD8dyTuPB3Jxf0lHxaYzbe83-WEO"/>
-                            </a>
-                        </div>
-                        <div id="preview">
-                            <div id="box2">
-                                <div id="ctnr">
-                                    <div id="exit">
-                                        <button onClick={close2}>X</button>
-                                    </div>
-                                    <img src="https://drive.google.com/uc?id=1l-mUQD8dyTuPB3Jxf0lHxaYzbe83-WEO"/>
-                                    <a href="https://samplewebsites.github.io/" target="_blank"><button>View Live Demo</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="second">
-                            <a href="https://samplewebsites.github.io/" target="_blank">
-                                <img src="https://drive.google.com/uc?id=1ukP9ZbrcSyKF6CV2s6YSpmsLMwJ_FtPw"/>
-                            <div id="invi">
-                                <div id="bttn">
-                                    <h2>View Live Demo</h2>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="info">
-                        <h1><span className="yellow">E-commerce Site</span></h1>
-                        <h2>Template 02</h2>
-                        <p>A buy and sell website for all your products/services.</p>
-                        <div id="btncompiler">
-                            <button className="btn1">₱500.00</button>
-                            <button className="btn2">+₱300.00 for Addons</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="template">
-                    <div id="pic">
-                        <div id="first">
-                            <a id="prev" onClick={seeform3}>
-                                <img src="https://drive.google.com/uc?id=1y0Sd0VHEBtOWmHaJlp_d6wA8OJjI7Jhv"/>
-                            </a>
-                        </div>
-                        <div id="preview">
-                            <div id="box3">
-                                <div id="ctnr">
-                                    <div id="exit">
-                                        <button onClick={close3}>X</button>
-                                    </div>
-                                    <img src="https://drive.google.com/uc?id=1y0Sd0VHEBtOWmHaJlp_d6wA8OJjI7Jhv"/>
-                                    <a href="#/sample3" target="_blank"><button>View Live Demo</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="second">
-                            <a href="#/sample3" target="_blank">
-                                <img src="https://drive.google.com/uc?id=1YLE8e13SAwpzVt99itKhKHUpNCeLbifC"/>
-                            <div id="invi">
-                                <div id="bttn">
-                                    <h2>View Live Demo</h2>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="info">
-                        <h1><span className="yellow">Bakeshop</span></h1>
-                        <h2>Template 03</h2>
-                        <p>Showcase your best baked products and sell them online!</p>
-                        <div id="btncompiler">
-                            <button className="btn1">₱500.00</button>
-                            <button className="btn2">+₱300.00 for Addons</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="template">
-                    <div id="pic">
-                        <div id="first">
-                            <a id="prev" onClick={seeform4}>
-                                <img src="https://drive.google.com/uc?id=142WAv13B2DqNyZ9nASwuX4Oa-cZ8MzIu"/>
-                            </a>
-                        </div>
-                        <div id="preview">
-                            <div id="box4">
-                                <div id="ctnr">
-                                    <div id="exit">
-                                        <button onClick={close4}>X</button>
-                                    </div>
-                                    <img src="https://drive.google.com/uc?id=142WAv13B2DqNyZ9nASwuX4Oa-cZ8MzIu"/>
-                                    <a href="#/sample4" target="_blank"><button>View Live Demo</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="second">
-                            <a href="#/sample4" target="_blank">
-                                <img src="https://drive.google.com/uc?id=1ZYNQoHmWhwCqWbZFRClyjWr-z0YnuL3m"/>
-                            <div id="invi">
-                                <div id="bttn">
-                                    <h2>View Live Demo</h2>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="info">
-                        <h1><span className="yellow">Online Store</span></h1>
-                        <h2>Template 04</h2>
-                        <p>Sell your products online and showcase why they are the best!</p>
-                        <div id="btncompiler">
-                            <button className="btn1">₱500.00</button>
-                            <button className="btn2">+₱300.00 for Addons</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="seemore">
-                <button onClick={seeform5}>See Our Full Price Range</button>
-            </div>
-            <div id="preview">
-                <div id="box5">
-                    <div id="ctnr5">
-                        <div id="exit">
-                            <button onClick={close5}>X</button>
-                        </div>
-                        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/291137556_455650209424299_7315765954786413626_n.png?stp=dst-png_p1080x2048&_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=JOcrTGBQdhcAX8igKLG&_nc_ht=scontent.fceb1-2.fna&oh=03_AVKAyk-wiDXA2SvERnPZgjVQtgNEqEUDl0t4KzKQhZvizQ&oe=630FF7C1"/>
-                    </div>
-                </div>
-            </div>
         </section>
     )
 }

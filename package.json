@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "homepage": "https://divstruct.tk/",
   "type": "module",
+  "author": "Kelly",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
