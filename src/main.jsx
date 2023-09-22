@@ -15,7 +15,6 @@ import './scss/Css4/sample4.css'
 import './assets/code.js'
 
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

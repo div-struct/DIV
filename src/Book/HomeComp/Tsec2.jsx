@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 
-
 const Tsec2 = () => {
     useEffect(() => {
         const timer= setTimeout(() => {
