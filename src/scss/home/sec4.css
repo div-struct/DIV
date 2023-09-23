@@ -1,0 +1,77 @@
+/* SAMPLES */
+#temp {
+    height: 24vw;
+}
+
+#prlx {
+    background-image: url('https://drive.google.com/uc?id=1f6HEotebhSDebztSwgrnv6bOqwfX6DBz');
+    height: 27vw;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:-1vw;
+}
+
+#see{
+    text-align: center;
+    position: relative;
+    top: -22.5vw;
+}
+
+#see h2 {
+    font-size: 3.5vw;
+}
+
+#see p {
+    font-size: 1.9vw;
+    padding: 0 30vw 0 30vw;
+}
+
+#btn {
+    color:black;
+    background-color: #FFCC00;
+    margin: 2vw 0 0 0;
+    width: 14vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: yellow;
+    transform: scale(1.1);
+}
+
+@media (max-width:425px) {
+    #prlx {
+        top: -2vw;
+    }
+
+    #see{
+        text-align: center;
+        position: relative;
+        top: -24vw;
+    }
+
+    #see h2 {
+        font-size: 5vw;
+    }
+    
+    #see p {
+        font-size: 2.5vw;
+        padding: 0 20vw 0 20vw;
+    }
+    
+    #btn {
+        width: auto;
+        height: 4vw;
+        font-size: 3vw;
+        padding: 0 1vw 0 1vw;
+    }
+
+}
